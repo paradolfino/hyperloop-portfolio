@@ -3,3 +3,4 @@
 15/05/2018: 15:59 - 16:07:pool[gen projects controller]
 15/05/2018: 16:07 - 16:10:pool[fill out projects controller actions]
 15/05/2018: 16:10 - 16:13:pool[gen declarations model]
+15/05/2018: 16:13 - 16:18:pool[gen declarations controller and fill out actions/routes]

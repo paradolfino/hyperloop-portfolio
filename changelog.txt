@@ -1,3 +1,4 @@
 15/05/2018: 15:31 - 15:37:pool[gen pages controller and set up actions]
 15/05/2018: 15:37 - 15:59:pool[gen projects model]
 15/05/2018: 15:59 - 16:07:pool[gen projects controller]
+15/05/2018: 16:07 - 16:10:pool[fill out projects controller actions]

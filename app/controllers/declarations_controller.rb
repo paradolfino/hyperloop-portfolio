@@ -24,7 +24,7 @@ class DeclarationsController < ApplicationController
   private
   
     def declarations_params
-      params.require(:declaration).permit(:content, :directory, :git)
+      params.fetch(:declaration, {}).permit(:content, :directory, :git)
     end
   
 end

@@ -13,7 +13,7 @@ class ProjectsController < ApplicationController
   end
   
   def create
-    @project = Project.new(project_params)
+    @project = Project.new(projects_params)
     if @project.save
       redirect_to @project
     else

@@ -5,7 +5,7 @@ class CreateProjects < ActiveRecord::Migration[5.1]
       t.text :frameworks
       t.text :languages
       t.text :gems
-
+      t.string :image
       t.timestamps
     end
   end

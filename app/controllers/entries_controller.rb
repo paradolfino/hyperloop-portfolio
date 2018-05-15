@@ -7,6 +7,6 @@ class EntriesController < ApplicationController
   private
   
     def entry_params
-      params.fetch(:entry, {}).permit(:content)
+      params.permit(:content)
     end
 end

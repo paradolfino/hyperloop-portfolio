@@ -39,7 +39,7 @@ class ProjectsController < ApplicationController
   private
   
     def projects_params
-      params.fetch(:project, {}).permit(:title, :frameworks, :languages, :gems, :image)
+      params.require(:project).permit(:title, :frameworks, :languages, :gems, :image)
     end
     
     def set_project

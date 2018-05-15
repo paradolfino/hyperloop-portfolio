@@ -6,3 +6,4 @@
 15/05/2018: 16:13 - 16:18:pool[gen declarations controller and fill out actions/routes]
 15/05/2018: 16:51 - 16:51:pool[test]
 15/05/2018: 16:18 - 16:56:pool[test declarations on db]
+15/05/2018: 21:17 - 21:30:pool[set up statics routes]

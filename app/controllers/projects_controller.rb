@@ -18,4 +18,8 @@ class ProjectsController < ApplicationController
   def update
     
   end
+  
+  def destroy
+    
+  end
 end

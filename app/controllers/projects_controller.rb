@@ -22,4 +22,14 @@ class ProjectsController < ApplicationController
   def destroy
     
   end
+  
+  private
+  
+    def projects_params
+      
+    end
+    
+    def set_project
+      
+    end
 end

@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: hyperloop-portfolio_production
-  username: hyperloop-developer
-  password: <%= ENV['HYPERLOOP-PORTFOLIO_PASSWORD'] %>
+  username: ENV["HYPERLOOP-PORTFOLIO_USERNAME"]
+  password: ENV['HYPERLOOP-PORTFOLIO_PASSWORD']

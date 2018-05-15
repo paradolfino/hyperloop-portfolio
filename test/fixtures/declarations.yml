@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyText
+  directory: MyString
+  git: MyString
+
+two:
+  content: MyText
+  directory: MyString
+  git: MyString

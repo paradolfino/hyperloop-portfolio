@@ -1,11 +1,4 @@
 Rails.application.routes.draw do
-  get 'projects/index'
-
-  get 'projects/show'
-
-  get 'projects/new'
-
-  get 'projects/edit'
 
   root 'statics#home'
 
@@ -13,5 +6,6 @@ Rails.application.routes.draw do
 
   get 'statics/contact'
 
+  resources :projects
   mount Hyperloop::Engine => '/hyperloop'
 end

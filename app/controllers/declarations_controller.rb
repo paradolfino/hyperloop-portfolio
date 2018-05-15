@@ -1,7 +1,7 @@
 class DeclarationsController < ApplicationController
   
   def create
-    @declaration = Declaration.build(declarations_params)
+    @declaration = Declaration.new(declarations_params)
     if @declaration.save
       output = {
         message: "Success"

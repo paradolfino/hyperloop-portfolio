@@ -7,7 +7,7 @@ class DeclarationsController < ApplicationController
         message: "Success"
       }
       
-      render :json message
+      render json: output
     else
       
     end

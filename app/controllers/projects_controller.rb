@@ -26,7 +26,7 @@ class ProjectsController < ApplicationController
   private
   
     def projects_params
-      
+      params.require(:project).permit(:title, :frameworks, :languages, :gems, :image)
     end
     
     def set_project

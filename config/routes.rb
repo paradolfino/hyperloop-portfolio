@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   resources :projects
   
-  get 'declarations' => 'declarations/#new'
+  get 'declarations' => 'declarations#new'
   resources :declarations, only: [:create]
   mount Hyperloop::Engine => '/hyperloop'
 end

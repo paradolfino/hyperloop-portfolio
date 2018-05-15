@@ -2,9 +2,9 @@ Rails.application.routes.draw do
 
   root 'statics#home'
 
-  get 'statics/about'
+  get 'about' => 'statics#about'
 
-  get 'statics/contact'
+  get 'contact' => 'statics#contact'
 
   resources :projects
   

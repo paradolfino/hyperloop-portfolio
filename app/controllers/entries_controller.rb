@@ -7,6 +7,6 @@ class EntriesController < ApplicationController
   private
   
     def entry_params
-      params.permit(:content)
+      params.permit(:content, :declaration_id)
     end
 end

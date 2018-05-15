@@ -25,7 +25,11 @@ class ProjectsController < ApplicationController
   end
   
   def update
-    
+    if @project.update(project_params)
+      redirect_to @project
+    else
+      render 'new'
+    end
   end
   
   def destroy

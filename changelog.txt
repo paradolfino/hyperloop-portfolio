@@ -5,3 +5,4 @@
 15/05/2018: 16:10 - 16:13:pool[gen declarations model]
 15/05/2018: 16:13 - 16:18:pool[gen declarations controller and fill out actions/routes]
 15/05/2018: 16:51 - 16:51:pool[test]
+15/05/2018: 16:18 - 16:56:pool[test declarations on db]

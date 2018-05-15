@@ -9,7 +9,11 @@ class DeclarationsController < ApplicationController
       
       render json: output
     else
+      output = {
+        message: "Failure"
+      }
       
+      render json: output
     end
   end
   

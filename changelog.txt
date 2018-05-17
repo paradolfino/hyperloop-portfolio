@@ -10,3 +10,4 @@
 17/05/2018: 21:49 - 21:52:pool[generate clearance views]
 17/05/2018: 21:52 - 21:56:pool[configure routes and remove unneeded views]
 17/05/2018: 21:56 - 21:58:pool[improve sessions views]
+17/05/2018: 21:58 - 22:06:pool[implement require_login in controllers]

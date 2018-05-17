@@ -1,5 +1,5 @@
 class Declarations < Hyperloop::Component
-  render do
+  render(DIV) do
     Declaration.each do |declare|
       
     end

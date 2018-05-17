@@ -8,3 +8,4 @@
 15/05/2018: 16:18 - 16:56:pool[test declarations on db]
 15/05/2018: 21:17 - 21:30:pool[set up statics routes]
 17/05/2018: 21:49 - 21:52:pool[generate clearance views]
+17/05/2018: 21:52 - 21:56:pool[configure routes and remove unneeded views]
